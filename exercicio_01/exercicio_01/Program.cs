@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 
 namespace exercicio_01
@@ -49,25 +50,24 @@ namespace exercicio_01
                 Tipo = 2
             };
 
+            var cesta = new Dictionary<Produto, int>
+            {
+                { produtoUm, 3 },
+                { produtoDois, 7},
+                { produtoTres, 1 },
+                { produtoQuatro, 20 },
+                { produtoCinco , 3 },
+                { produtoSeis, 4 }
+            };
+
             var caixa = new Caixa();
 
-            Console.Write($"{produtoUm.Nome}: ");
-            Console.WriteLine(caixa.CalculaValorFinal(produtoUm, 3).ToString("C2", CultureInfo.CurrentCulture));
+            foreach (var item in cesta)
+            {
+                var valorFinal = caixa.CalculaValorFinal(item.Key, item.Value);
 
-            Console.Write($"{produtoDois.Nome}: ");
-            Console.WriteLine(caixa.CalculaValorFinal(produtoDois, 3).ToString("C2", CultureInfo.CurrentCulture));
-
-            Console.Write($"{produtoTres.Nome}: ");
-            Console.WriteLine(caixa.CalculaValorFinal(produtoTres, 1).ToString("C2", CultureInfo.CurrentCulture));
-
-            Console.Write($"{produtoQuatro.Nome}: ");
-            Console.WriteLine(caixa.CalculaValorFinal(produtoQuatro, 1).ToString("C2", CultureInfo.CurrentCulture));
-
-            Console.Write($"{produtoCinco.Nome}: ");
-            Console.WriteLine(caixa.CalculaValorFinal(produtoCinco, 3).ToString("C2", CultureInfo.CurrentCulture));
-
-            Console.Write($"{produtoSeis.Nome}: ");
-            Console.WriteLine(caixa.CalculaValorFinal(produtoSeis, 2).ToString("C2", CultureInfo.CurrentCulture));
+                Console.WriteLine($"{item.Key.Nome}: {valorFinal.ToString("C2", CultureInfo.CurrentCulture)}");
+            }
         }
     }
 }
