@@ -13,14 +13,14 @@ namespace exercicio_04
             var ipi = new Ipi();
             var cofins = new Cofins();
 
-            Console.WriteLine($"ICMS: {icms.CalculaImposto(valor)}");
-            Console.WriteLine($"IPI: {ipi.CalculaImposto(valor)}");
-            Console.WriteLine($"COFINS: {cofins.CalculaImposto(valor)}");
+            Console.WriteLine($"ICMS: {icms.CalculaImposto(valor).ToString("N2")}");
+            Console.WriteLine($"IPI: {ipi.CalculaImposto(valor).ToString("N2")}");
+            Console.WriteLine($"COFINS: {cofins.CalculaImposto(valor).ToString("N2")}");
 
             double valorTotalImpostos = icms.CalculaImposto(valor) + ipi.CalculaImposto(valor) + cofins.CalculaImposto(valor);
             double valorTotal = valor + valorTotalImpostos;
 
-            Console.WriteLine($"Valor Final: {valorTotal}");
+            Console.WriteLine($"Valor Final: {valorTotal.ToString("N2")}");
         }
     }
 }
