@@ -12,7 +12,9 @@ namespace exercicio_02
             Console.Write("Digite o intervalo final: ");
             int intervaloFinal= Convert.ToInt32(Console.ReadLine());
 
-            if(intervaloFinal - intervaloInicial < 15)
+            bool dentroDoIntervalo = (intervaloFinal - intervaloInicial < 15);
+
+            if (dentroDoIntervalo)
             {
                 for (int i = intervaloInicial; i <= intervaloFinal; i++)
                 {
