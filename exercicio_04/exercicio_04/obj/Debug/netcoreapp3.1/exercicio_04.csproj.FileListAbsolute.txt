@@ -1,0 +1,13 @@
+C:\Users\marci\Documents\dotnet-workspace\gft\marciomesquita-GFT-START-2021-CSharp\exercicio_04\exercicio_04\bin\Debug\netcoreapp3.1\exercicio_04.exe
+C:\Users\marci\Documents\dotnet-workspace\gft\marciomesquita-GFT-START-2021-CSharp\exercicio_04\exercicio_04\bin\Debug\netcoreapp3.1\exercicio_04.deps.json
+C:\Users\marci\Documents\dotnet-workspace\gft\marciomesquita-GFT-START-2021-CSharp\exercicio_04\exercicio_04\bin\Debug\netcoreapp3.1\exercicio_04.runtimeconfig.json
+C:\Users\marci\Documents\dotnet-workspace\gft\marciomesquita-GFT-START-2021-CSharp\exercicio_04\exercicio_04\bin\Debug\netcoreapp3.1\exercicio_04.runtimeconfig.dev.json
+C:\Users\marci\Documents\dotnet-workspace\gft\marciomesquita-GFT-START-2021-CSharp\exercicio_04\exercicio_04\bin\Debug\netcoreapp3.1\exercicio_04.dll
+C:\Users\marci\Documents\dotnet-workspace\gft\marciomesquita-GFT-START-2021-CSharp\exercicio_04\exercicio_04\bin\Debug\netcoreapp3.1\exercicio_04.pdb
+C:\Users\marci\Documents\dotnet-workspace\gft\marciomesquita-GFT-START-2021-CSharp\exercicio_04\exercicio_04\obj\Debug\netcoreapp3.1\exercicio_04.csprojAssemblyReference.cache
+C:\Users\marci\Documents\dotnet-workspace\gft\marciomesquita-GFT-START-2021-CSharp\exercicio_04\exercicio_04\obj\Debug\netcoreapp3.1\exercicio_04.AssemblyInfoInputs.cache
+C:\Users\marci\Documents\dotnet-workspace\gft\marciomesquita-GFT-START-2021-CSharp\exercicio_04\exercicio_04\obj\Debug\netcoreapp3.1\exercicio_04.AssemblyInfo.cs
+C:\Users\marci\Documents\dotnet-workspace\gft\marciomesquita-GFT-START-2021-CSharp\exercicio_04\exercicio_04\obj\Debug\netcoreapp3.1\exercicio_04.csproj.CoreCompileInputs.cache
+C:\Users\marci\Documents\dotnet-workspace\gft\marciomesquita-GFT-START-2021-CSharp\exercicio_04\exercicio_04\obj\Debug\netcoreapp3.1\exercicio_04.dll
+C:\Users\marci\Documents\dotnet-workspace\gft\marciomesquita-GFT-START-2021-CSharp\exercicio_04\exercicio_04\obj\Debug\netcoreapp3.1\exercicio_04.pdb
+C:\Users\marci\Documents\dotnet-workspace\gft\marciomesquita-GFT-START-2021-CSharp\exercicio_04\exercicio_04\obj\Debug\netcoreapp3.1\exercicio_04.genruntimeconfig.cache
