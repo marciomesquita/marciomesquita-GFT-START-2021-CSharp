@@ -17,10 +17,13 @@ namespace exercicio_03
             {
                 if (numero % divisor == 0)
                 {
-                    Console.Write($"{divisor} ");
+                    Console.Write($"{divisor}");
+                    if (Array.IndexOf(divisores, divisor) != divisores.Length - 1)
+                    {
+                        Console.Write(",");
+                    }
                 }
-
-                
+           
             }
 
         }
